@@ -1,0 +1,51 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "CLICKABLE SIGNS v3.0",
+    "uuid": "6f795549-c006-4e49-a7f2-f48982a878a7",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      19,
+      0
+    ]
+  },
+  "modules": [
+		{
+			"description": "data module",
+			"type": "data",
+			"uuid": "533ee3ed-679e-4944-a0b9-3954af4322c8",
+			"version": [
+				2,
+				3,
+				0
+			]
+		},
+		{
+			"description": "Javascript API",
+			"language": "javascript",
+			"type": "script",
+			"uuid": "99b8fa73-1617-4c47-8a44-234c618da5c6",
+			"version": [
+				2,
+				0,
+				0
+			],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "b26a4d4c-afdf-4690-88f8-931846312678",
+			"version": "1.2.0-beta"
+		},
+		{
+			"uuid": "2bd50a27-ab5f-4f40-a596-3641627c635e",
+			"version": "1.0.0-beta"
+		}
+	]
+}
